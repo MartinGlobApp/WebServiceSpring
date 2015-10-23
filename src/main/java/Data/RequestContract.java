@@ -3,7 +3,7 @@ package Data;
 /**
  * Created by martin-valdez on 22/10/15.
  */
-public final class RequestContract {
+public class RequestContract {
     /**
      * COMMON
      */
@@ -16,7 +16,7 @@ public final class RequestContract {
     /**
      * SERVER CONTROLLER
      */
-    public static final String SERVER_GET_TIME = "/getTimeSever";
+    public static final String SERVER_GET_TIME = "/getTimeServer";
     public static final String SERVER_FORMAT_DATE = "dd//MM/yyyy HH:mm:ss";
 
     /**

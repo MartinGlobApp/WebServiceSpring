@@ -42,7 +42,7 @@ public class HibernateUtil {
             Properties properties = new Properties();
             properties.put("hibernate.dialect","org.hibernate.dialect.MySQLDialect");
             properties.put("hibernate.hbm2ddl.auto", Auto_hibernate.AUTO_UPDATE.toString());
-            properties.put("hibernate.show_sql", "true");
+            properties.put("hibernate.show_sql", "false");
             properties.put("hibernate.format_sql", "true");
             properties.put("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
             properties.put("hibernate.connection.url", "jdbc:mysql://localhost:3306/" + DBContract.DB_NAME);
@@ -67,7 +67,7 @@ public class HibernateUtil {
             serviceRegistry = new ServiceRegistryBuilder().applySettings(configuration.getProperties()).buildServiceRegistry();
             return configuration.buildSessionFactory(serviceRegistry);
         }catch (Throwable ex){
-            String x = ex.getMessage();
+            String erroMessage = ex.getMessage();
             throw new ExceptionInInitializerError();
         }
     }
