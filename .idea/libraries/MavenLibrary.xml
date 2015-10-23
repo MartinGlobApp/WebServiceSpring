@@ -1,0 +1,336 @@
+<component name="libraryTable">
+  <library name="MavenLibrary">
+    <ANNOTATIONS>
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/antlr" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/aopalliance" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/asm" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/avalon-framework" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/backport-util-concurrent" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/cglib" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/ch" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/classworlds" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/com" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-beanutils" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-chain" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-cli" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-codec" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-collections" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-dbcp" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-digester" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-io" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-jxpath" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-lang" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-logging" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-net" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-pool" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-validator" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/dom4j" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/emma" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/hibernate" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/io" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/javassist" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/javax" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/jdom" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/jstl" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/junit" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/kxml2" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/log4j" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/logkit" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/mysql" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/net" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/org" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/oro" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/pl" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/ScarpattiGroup" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/sslext" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/velocity" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xerces" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xml-apis" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xmlunit" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/antlr" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/aopalliance" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/asm" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/avalon-framework" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/backport-util-concurrent" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/cglib" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/ch" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/classworlds" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/com" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-beanutils" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-chain" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-cli" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-codec" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-collections" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-dbcp" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-digester" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-io" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-jxpath" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-lang" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-logging" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-net" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-pool" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-validator" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/dom4j" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/emma" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/hibernate" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/io" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/javassist" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/javax" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/jdom" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/jstl" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/junit" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/kxml2" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/log4j" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/logkit" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/mysql" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/net" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/org" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/oro" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/pl" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/ScarpattiGroup" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/sslext" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/velocity" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xerces" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xml-apis" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xmlunit" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/antlr" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/aopalliance" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/asm" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/avalon-framework" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/backport-util-concurrent" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/cglib" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/ch" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/classworlds" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/com" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-beanutils" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-chain" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-cli" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-codec" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-collections" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-dbcp" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-digester" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-io" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-jxpath" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-lang" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-logging" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-net" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-pool" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-validator" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/dom4j" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/emma" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/hibernate" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/io" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/javassist" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/javax" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/jdom" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/jstl" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/junit" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/kxml2" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/log4j" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/logkit" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/mysql" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/net" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/org" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/oro" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/pl" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/ScarpattiGroup" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/sslext" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/velocity" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xerces" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xml-apis" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xmlunit" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/antlr" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/aopalliance" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/asm" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/avalon-framework" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/backport-util-concurrent" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/cglib" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/ch" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/classworlds" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/com" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-beanutils" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-chain" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-cli" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-codec" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-collections" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-dbcp" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-digester" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-io" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-jxpath" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-lang" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-logging" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-net" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-pool" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-validator" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/dom4j" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/emma" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/hibernate" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/io" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/javassist" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/javax" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/jdom" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/jstl" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/junit" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/kxml2" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/log4j" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/logkit" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/mysql" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/net" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/org" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/oro" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/pl" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/ScarpattiGroup" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/sslext" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/velocity" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xerces" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xml-apis" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xmlunit" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/antlr" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/aopalliance" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/asm" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/avalon-framework" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/backport-util-concurrent" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/cglib" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/ch" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/classworlds" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/com" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-beanutils" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-chain" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-cli" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-codec" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-collections" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-dbcp" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-digester" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-io" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-jxpath" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-lang" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-logging" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-net" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-pool" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-validator" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/dom4j" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/emma" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/hibernate" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/io" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/javassist" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/javax" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/jdom" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/jstl" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/junit" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/kxml2" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/log4j" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/logkit" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/mysql" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/net" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/org" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/oro" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/pl" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/ScarpattiGroup" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/sslext" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/velocity" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xerces" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xml-apis" />
+      <root url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xmlunit" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/antlr" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/aopalliance" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/asm" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/avalon-framework" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/backport-util-concurrent" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/cglib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/ch" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/classworlds" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/com" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-beanutils" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-chain" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-cli" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-codec" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-collections" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-dbcp" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-digester" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-io" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-jxpath" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-lang" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-logging" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-net" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-pool" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-validator" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/dom4j" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/emma" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/hibernate" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/io" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/javassist" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/javax" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/jdom" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/jstl" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/junit" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/kxml2" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/log4j" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/logkit" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/mysql" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/net" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/org" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/oro" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/pl" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/ScarpattiGroup" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/sslext" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/velocity" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xerces" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xml-apis" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xmlunit" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/antlr" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/aopalliance" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/asm" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/avalon-framework" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/backport-util-concurrent" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/cglib" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/ch" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/classworlds" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/com" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-beanutils" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-chain" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-cli" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-codec" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-collections" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-dbcp" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-digester" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-io" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-jxpath" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-lang" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-logging" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-net" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-pool" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/commons-validator" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/dom4j" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/emma" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/hibernate" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/io" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/javassist" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/javax" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/jdom" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/jstl" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/junit" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/kxml2" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/log4j" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/logkit" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/mysql" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/net" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/org" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/oro" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/pl" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/ScarpattiGroup" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/sslext" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/velocity" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xerces" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xml-apis" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../ASSIA/MavenImports/xmlunit" recursive="false" type="SOURCES" />
+  </library>
+</component>
