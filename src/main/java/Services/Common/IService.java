@@ -8,9 +8,10 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public interface IService {
-    MyResponse insert(MyModel newModel);
-    MyResponse delete(MyModel model);
-    MyResponse getOne(int id);
+    MyResponse insert(final MyModel newModel);
+    MyResponse update(final MyModel newModel);
+    MyResponse delete(final MyModel model);
+    MyResponse getOne(final int id);
     MyResponse getListAll();
 
 }

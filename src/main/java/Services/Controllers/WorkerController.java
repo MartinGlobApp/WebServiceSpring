@@ -1,11 +1,12 @@
 package Services.Controllers;
 
+import Data.DBContract;
 import Data.MyResponse;
-import Services.Common.BasicService;
+import Data.RequestContract;
 import Services.Entities.Worker;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
+import Services.Services.WorkerService;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * Created by martin-valdez on 19/10/15.
@@ -14,29 +15,28 @@ import org.springframework.web.bind.annotation.*;
 public class WorkerController {
 
     @Autowired
-    @Qualifier("workerService")
-    private BasicService workerService;
+    private WorkerService workerService;
 
-    @RequestMapping(value = "/insert")
-    public MyResponse insertWorker(@RequestParam(value = "name", defaultValue = "hola") String name,
-                                   @RequestParam(value = "lastName", defaultValue = "hola") String lastName) {
+    @RequestMapping("/insertWorkerGet")
+    public MyResponse insertWorker(@RequestParam(value = "name", defaultValue = "NULL") final String name,
+                                   @RequestParam(value = "lastName", defaultValue = "NULL") final String lastName) {
         Worker worker = new Worker();
         worker.setName(name);
         worker.setLastName(lastName);
         return workerService.insert(worker);
     }
 
-    @RequestMapping(value = "/insertWorker", method = RequestMethod.POST)
-    public MyResponse insertWorker(@RequestBody Worker worker) {
-        return workerService.insert(worker);
+    @RequestMapping(value = RequestContract.INSERT_WORKER, method = RequestMethod.POST)
+    public MyResponse insertWorker(@RequestBody final Worker newWorker) {
+        return workerService.insert(newWorker);
     }
 
-    @RequestMapping("/getWorker")
-    public MyResponse getWorker(@RequestParam(value = "workerId", defaultValue = "0") int workerId){
+    @RequestMapping(RequestContract.GET_ONE_WORKER)
+    public MyResponse getWorker(@RequestParam(value = DBContract.WORKER_COLUMN_ID, defaultValue = "0") final int workerId){
         return workerService.getOne(workerId);
     }
 
-    @RequestMapping("/getListAllWorkers")
+    @RequestMapping(RequestContract.GET_ALL_WORKER)
     public MyResponse getListAllWorkers(){
         return workerService.getListAll();
     }

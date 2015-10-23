@@ -33,6 +33,7 @@ public class DBContract {
      * BREAKS TYPE
      */
     public static final String BREAKTYPE_TABLE = "BreakType";
+    public static final String BREAKTYPE_COLUMN_ID = "breakTypeId";
     /**
      * BREAK STATES
      */

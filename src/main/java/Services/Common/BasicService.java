@@ -15,7 +15,7 @@ public abstract class BasicService implements IService {
     @Autowired
     private BasicRepository mRepository;
 
-    public MyResponse insert(MyModel newModel){
+    public MyResponse insert(final MyModel newModel){
         MyResponse response = new MyResponse();
         if(newModel != null){
             try {
@@ -32,7 +32,24 @@ public abstract class BasicService implements IService {
         return response;
     }
 
-    public MyResponse delete(MyModel model){
+    public MyResponse update(final MyModel newModel){
+        MyResponse response = new MyResponse();
+        if(newModel != null){
+            try {
+                mRepository.update(newModel);
+                response.setCode(ResponseStates.DONE);
+            } catch (Exception e) {
+                response.setCode(ResponseStates.ERROR_DB);
+                response.setData(e.toString());
+            }
+        }else{
+            response.setData("Something went wrong");
+            response.setCode(ResponseStates.ERROR_DATA);
+        }
+        return response;
+    }
+
+    public MyResponse delete(final MyModel model){
         MyResponse response = new MyResponse();
         if(model != null){
             try {
@@ -48,11 +65,4 @@ public abstract class BasicService implements IService {
         return response;
 
     }
-
-    public MyResponse getOne(int id){
-        return null;
-    }
-
-    public MyResponse getListAll(){return null;}
-
 }

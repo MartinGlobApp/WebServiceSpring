@@ -1,17 +1,21 @@
 package Services.Controllers;
 
+import Data.DBContract;
 import Data.MyResponse;
-import Services.Common.BasicService;
+import Data.RequestContract;
 import Services.Entities.ItemProcess;
 import Services.Entities.Product;
 import Services.Entities.Station;
+import Services.Services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by martin-valdez on 20/10/15.
@@ -21,10 +25,9 @@ import java.util.ArrayList;
 public class ProductController {
 
     @Autowired
-    @Qualifier("productService")
-    private BasicService productService;
+    private ProductService productService;
 
-    @RequestMapping("/insertProduct")
+    @RequestMapping(RequestContract.INSERT_PRODUCT)
     public MyResponse insertProduct(){
 
         ArrayList<ItemProcess> list = new ArrayList<>();
@@ -57,18 +60,41 @@ public class ProductController {
         list.add(itemProcess);
         list.add(itemProcess2);
 
-        product.setProcessList(list);
+//        product.setProcessList(list);
 
         return productService.insert(product);
     }
 
-    @RequestMapping("/getProduct")
-    public MyResponse getProduct(@RequestParam(value = "productId", defaultValue = "0") int productId){
+
+    @RequestMapping("/updateProduct")
+    public MyResponse updateProduct(@RequestParam(value = DBContract.PRODUCTS_COLUMN_ID, defaultValue = "0") final int productId){
+        Product product = (Product) productService.getOne(productId).getData();
+
+        Station station = new Station();
+        station.setStationId(1);
+        station.setName("Estacion 1");
+        station.setDescription("Corte");
+
+        ItemProcess itemProcess = new ItemProcess();
+        itemProcess.setStation(station);
+        itemProcess.setProduct(product);
+        itemProcess.setOrdenInProcess(1);
+        List<ItemProcess> list = product.getProcessList();
+        list.add(itemProcess);
+        product.setProcessList(list);
+
+        return productService.update(product);
+    }
+
+    @RequestMapping(RequestContract.GET_ONE_PRODUCT)
+    public MyResponse getProduct(@RequestParam(value = DBContract.PRODUCTS_COLUMN_ID, defaultValue = "0") final int productId){
         return productService.getOne(productId);
     }
 
-    @RequestMapping("/getListAllProduct")
+    @RequestMapping(RequestContract.GET_ALL_PRODUCT)
     public MyResponse getListAllProduct(){
         return productService.getListAll();
     }
+
+
 }

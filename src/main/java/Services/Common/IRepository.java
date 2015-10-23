@@ -1,8 +1,7 @@
 package Services.Common;
 
-import org.springframework.stereotype.Repository;
-
 import java.util.List;
+import org.springframework.stereotype.Repository;
 
 /**
  * Created by martin-valdez on 22/10/15.
@@ -10,8 +9,9 @@ import java.util.List;
 
 @Repository
 public interface IRepository {
-    int insert(MyModel newModel) throws Exception;
-    void delete(MyModel model) throws Exception;
-    MyModel getOne(int id) throws Exception;
+    int insert(final MyModel newModel) throws Exception;
+    void update(final MyModel newModel) throws Exception;
+    void delete(final MyModel model) throws Exception;
+    MyModel getOne(final int id) throws Exception;
     List<MyModel> getListAll() throws Exception;
 }

@@ -5,6 +5,9 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
+import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
+import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
+import org.springframework.stereotype.Component;
 
 import java.util.Properties;
 
@@ -38,7 +41,7 @@ public class HibernateUtil {
         try{
             Properties properties = new Properties();
             properties.put("hibernate.dialect","org.hibernate.dialect.MySQLDialect");
-            properties.put("hibernate.hbm2ddl.auto", Auto_hibernate.AUTO_CREATE.toString());
+            properties.put("hibernate.hbm2ddl.auto", Auto_hibernate.AUTO_UPDATE.toString());
             properties.put("hibernate.show_sql", "true");
             properties.put("hibernate.format_sql", "true");
             properties.put("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");

@@ -1,13 +1,12 @@
 package Services.Controllers;
 
+import Data.DBContract;
 import Data.MyResponse;
-import Services.Common.BasicService;
+import Data.RequestContract;
 import Services.Entities.Station;
+import Services.Services.StationService;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Created by martin-valdez on 22/10/15.
@@ -16,24 +15,28 @@ import org.springframework.web.bind.annotation.RestController;
 public class StationController {
 
     @Autowired
-    @Qualifier("stationService")
-    private BasicService stationService;
+    private StationService stationService;
 
-    @RequestMapping(value = "/insertStation")
-    public MyResponse insertStation(@RequestParam(value = "name", defaultValue = "hola") String name,
-                                   @RequestParam(value = "description", defaultValue = "hola") String description) {
+    @RequestMapping("/insertStationGet")
+    public MyResponse insertStation(@RequestParam(value = "name", defaultValue = "hola") final String name,
+                                   @RequestParam(value = "description", defaultValue = "hola") final String description) {
         Station station = new Station();
         station.setName(name);
         station.setDescription(description);
         return stationService.insert(station);
     }
 
-    @RequestMapping("/getStation")
-    public MyResponse getStation(@RequestParam(value = "stationId", defaultValue = "0") int stationId){
+    @RequestMapping(value = RequestContract.INSERT_STATION, method = RequestMethod.POST)
+    public MyResponse insertStation(@RequestBody final Station newStation) {
+        return stationService.insert(newStation);
+    }
+
+    @RequestMapping(RequestContract.GET_ONE_STATION)
+    public MyResponse getStation(@RequestParam(value = DBContract.STATION_COLUMN_ID, defaultValue = "0") final int stationId){
         return stationService.getOne(stationId);
     }
 
-    @RequestMapping("/getListAllStations")
+    @RequestMapping(RequestContract.GET_ALL_STATION)
     public MyResponse getListAllStations(){
         return stationService.getListAll();
     }

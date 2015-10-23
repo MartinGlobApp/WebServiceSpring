@@ -1,25 +1,23 @@
 package Services.Services;
 
 import Data.MyResponse;
+import Data.RequestContract;
 import Data.ResponseStates;
-import Services.Common.BasicRepository;
 import Services.Common.BasicService;
+import Services.Repositories.WorkerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 /**
  * Created by martin-valdez on 19/10/15.
  */
-@Service(value = "workerService")
+@Service(value = RequestContract.WORKER_SERVICE_NAME)
 public class WorkerService extends BasicService{
 
     @Autowired
-    @Qualifier("workerRepository")
-    private BasicRepository workerRepository;
+    private WorkerRepository workerRepository;
 
-    @Override
-    public MyResponse getOne(int id){
+    public MyResponse getOne(final int id){
         MyResponse response = new MyResponse();
         try {
             response.setData(workerRepository.getOne(id));
@@ -31,7 +29,6 @@ public class WorkerService extends BasicService{
         return response;
     }
 
-    @Override
     public MyResponse getListAll(){
         MyResponse response = new MyResponse();
         try {

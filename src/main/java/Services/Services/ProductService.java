@@ -1,25 +1,23 @@
 package Services.Services;
 
 import Data.MyResponse;
+import Data.RequestContract;
 import Data.ResponseStates;
-import Services.Common.BasicRepository;
 import Services.Common.BasicService;
+import Services.Repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 /**
  * Created by martin-valdez on 20/10/15.
  */
-@Service(value = "productService")
+@Service(value = RequestContract.PRODUCT_SERVICE_NAME)
 public class ProductService extends BasicService{
 
     @Autowired
-    @Qualifier("productRepository")
-    private BasicRepository productRepository;
+    private ProductRepository productRepository;
 
-    @Override
-    public MyResponse getOne(int id){
+    public MyResponse getOne(final int id){
         MyResponse response = new MyResponse();
         try {
             response.setData(productRepository.getOne(id));
@@ -31,7 +29,6 @@ public class ProductService extends BasicService{
         return response;
     }
 
-    @Override
     public MyResponse getListAll(){
         MyResponse response = new MyResponse();
         try {
@@ -42,6 +39,7 @@ public class ProductService extends BasicService{
             response.setData(e.toString());
         }
         return response;
+
     }
 
 }

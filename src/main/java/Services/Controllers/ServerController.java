@@ -1,11 +1,11 @@
 package Services.Controllers;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
+import Data.RequestContract;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Created by martin-valdez on 19/10/15.
@@ -13,9 +13,9 @@ import java.util.Calendar;
 @RestController
 public class ServerController {
 
-    DateFormat dateFormat = new SimpleDateFormat("dd//MM/yyyy HH:mm:ss");
+    DateFormat dateFormat = new SimpleDateFormat(RequestContract.SERVER_FORMAT_DATE);
 
-    @RequestMapping("/getTimeServer")
+    @RequestMapping(value = RequestContract.SERVER_GET_TIME)
     public String getTimeServer() {
         return dateFormat.format(Calendar.getInstance().getTime());
     }
