@@ -2,50 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b08e488b-bd3c-4ba0-b4aa-adab9ca2eaa0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Services/Entities/Document.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Services/Controllers/DocumentController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Services/Repositories/DocumentRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Services/Services/DocumentService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Services/Entities/dummies/MyFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Services/Entities/ProductionOrderDocument.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Services/Repositories/ProductionOrderRepository.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Services/Repositories/PurchaseOrderRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Data/DBContract.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Data/HibernateUtil$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Data/HibernateUtil$Auto_hibernate$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Data/HibernateUtil$Auto_hibernate$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Data/HibernateUtil$Auto_hibernate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Data/HibernateUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Data/MyResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Data/RequestContract.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Data/ResponseStates.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Application.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Common/BasicRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Common/BasicService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Common/IRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Common/IService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Common/MyModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/BreakController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/BreakStateController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/BreakTypeController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/CartController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/DocumentController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/ErrorHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/MomentController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/MomentStateController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/OrderStateController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/ProductController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/ProductionOrderController.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/PurchaseOrderController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/ServerController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/StationController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/WorkerController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/Break.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/BreakState.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/BreakType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/Cart.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/Document.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/ItemProcess.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/Moment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/MomentState.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/OrderState.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/Product.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/ProductionOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/ProductionOrderDocument.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/PurchaseOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/Station.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/Worker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/dummies/MyFile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Repositories/BreakRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Repositories/BreakStateRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Repositories/BreakTypeRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Repositories/CartRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Repositories/DocumentRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Repositories/MomentRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Repositories/MomentStateRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Repositories/OrderStateRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Repositories/ProductRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Repositories/ProductionOrderRepository.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Repositories/PurchaseOrderRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Repositories/StationRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Repositories/WorkerRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Services/BreakService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Services/BreakStateService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Services/BreakTypeService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Services/CartService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Services/DocumentService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Services/MomentService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Services/MomentStateService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Services/OrderStateService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Services/ProductService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Services/ProductionOrderService.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Services/PurchaseOrderService.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Services/Controllers/PurchaseOrderController.java" afterPath="$PROJECT_DIR$/src/main/java/Services/Controllers/ProductionOrderController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Services/Entities/PurchaseOrder.java" afterPath="$PROJECT_DIR$/src/main/java/Services/Entities/ProductionOrder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Services/Services/PurchaseOrderService.java" afterPath="$PROJECT_DIR$/src/main/java/Services/Services/ProductionOrderService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Services/SimpleFCorsilter.java" afterPath="$PROJECT_DIR$/src/main/java/Services/SimpleCORSFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/Cart.class" afterPath="$PROJECT_DIR$/target/classes/Services/Entities/Cart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/CartController.class" afterPath="$PROJECT_DIR$/target/classes/Services/Controllers/CartController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Services/Repositories/CartRepository.class" afterPath="$PROJECT_DIR$/target/classes/Services/Repositories/CartRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Services/Services/CartService.class" afterPath="$PROJECT_DIR$/target/classes/Services/Services/CartService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Data/DBContract.class" afterPath="$PROJECT_DIR$/target/classes/Data/DBContract.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Data/HibernateUtil$Auto_hibernate$1.class" afterPath="$PROJECT_DIR$/target/classes/Data/HibernateUtil$Auto_hibernate$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Data/HibernateUtil$Auto_hibernate$2.class" afterPath="$PROJECT_DIR$/target/classes/Data/HibernateUtil$Auto_hibernate$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Data/HibernateUtil$Auto_hibernate.class" afterPath="$PROJECT_DIR$/target/classes/Data/HibernateUtil$Auto_hibernate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Data/HibernateUtil.class" afterPath="$PROJECT_DIR$/target/classes/Data/HibernateUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Services/Entities/Moment.class" afterPath="$PROJECT_DIR$/target/classes/Services/Entities/Moment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/MomentController.class" afterPath="$PROJECT_DIR$/target/classes/Services/Controllers/MomentController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/ProductController.class" afterPath="$PROJECT_DIR$/target/classes/Services/Controllers/ProductController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Data/RequestContract.class" afterPath="$PROJECT_DIR$/target/classes/Data/RequestContract.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Data/ResponseStates.class" afterPath="$PROJECT_DIR$/target/classes/Data/ResponseStates.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Services/Controllers/ServerController.class" afterPath="$PROJECT_DIR$/target/classes/Services/Controllers/ServerController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Services/SimpleFCorsilter.class" afterPath="$PROJECT_DIR$/target/classes/Services/SimpleFCorsilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Services/Entities/Cart.java" afterPath="$PROJECT_DIR$/src/main/java/Services/Entities/Cart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Services/Controllers/CartController.java" afterPath="$PROJECT_DIR$/src/main/java/Services/Controllers/CartController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Services/Repositories/CartRepository.java" afterPath="$PROJECT_DIR$/src/main/java/Services/Repositories/CartRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Services/Services/CartService.java" afterPath="$PROJECT_DIR$/src/main/java/Services/Services/CartService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Data/DBContract.java" afterPath="$PROJECT_DIR$/src/main/java/Data/DBContract.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Data/HibernateUtil.java" afterPath="$PROJECT_DIR$/src/main/java/Data/HibernateUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Services/Entities/Moment.java" afterPath="$PROJECT_DIR$/src/main/java/Services/Entities/Moment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Services/Controllers/MomentController.java" afterPath="$PROJECT_DIR$/src/main/java/Services/Controllers/MomentController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Services/Controllers/ProductController.java" afterPath="$PROJECT_DIR$/src/main/java/Services/Controllers/ProductController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Data/RequestContract.java" afterPath="$PROJECT_DIR$/src/main/java/Data/RequestContract.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Data/ResponseStates.java" afterPath="$PROJECT_DIR$/src/main/java/Data/ResponseStates.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Services/Controllers/ServerController.java" afterPath="$PROJECT_DIR$/src/main/java/Services/Controllers/ServerController.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Services/StationService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/Services/WorkerService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Services/SimpleFCorsilter.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebService.iws" />
@@ -73,18 +102,7 @@
     <favorites_list name="WebService" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SimpleCORSFilter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Services/SimpleCORSFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4822335">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -272,6 +290,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebServiceScarpatti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -539,13 +587,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1409" y="24" width="1323" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.76863354" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19967794" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36876008" sideWeight="0.5465936" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28663447" sideWeight="0.45340642" order="11" side_tool="true" content_ui="tabs" />
@@ -556,7 +604,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3476899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3476899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.2753623" sideWeight="0.5027408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1043,9 +1091,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Services/SimpleCORSFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4822335">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
+        <state vertical-scroll-proportion="-0.0016920473">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
