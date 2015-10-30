@@ -26,8 +26,8 @@ public class Moment implements MyModel{
     private Worker worker;
 
     @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = DBContract.PURCHASEORDER_COLUMN_ID)
-    private PurchaseOrder purchaseOrder;
+    @JoinColumn(name = DBContract.PRODUCTIONORDER_COLUMN_ID)
+    private ProductionOrder productionOrder;
 
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = DBContract.MOMENTSTATE_COLUMN_ID)
@@ -64,12 +64,12 @@ public class Moment implements MyModel{
         this.worker = worker;
     }
 
-    public PurchaseOrder getOrder() {
-        return purchaseOrder;
+    public ProductionOrder getOrder() {
+        return productionOrder;
     }
 
-    public void setOrder(PurchaseOrder order) {
-        this.purchaseOrder = order;
+    public void setOrder(ProductionOrder order) {
+        this.productionOrder = order;
     }
 
     public MomentState getMomentState() {

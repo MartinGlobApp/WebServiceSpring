@@ -8,6 +8,7 @@ public class RequestContract {
      * COMMON
      */
     private static final String INSERT = "/insert";
+    private static final String UPDATE = "/update";
     private static final String GET_ONE = "/getOne";
     private static final String GET_ALL = "/getListAll";
     private static final String REPOSITORY = "Repository";
@@ -17,7 +18,7 @@ public class RequestContract {
      * SERVER CONTROLLER
      */
     public static final String SERVER_GET_TIME = "/getTimeServer";
-    public static final String SERVER_FORMAT_DATE = "dd//MM/yyyy HH:mm:ss";
+    public static final String SERVER_FORMAT_DATE = "dd/MM/yyyy HH:mm:ss";
 
     /**
      * BREAK CONTROLLER
@@ -82,6 +83,7 @@ public class RequestContract {
     public static final String MOMENT_REPOSITORY_NAME = momentClassNameToLowerCase + REPOSITORY;
 
     public static final String INSERT_MOMENT = INSERT + momentClassName;
+    public static final String UPDATE_MOMENT = UPDATE + momentClassName;
     public static final String GET_ONE_MOMENT = GET_ONE + momentClassName;
     public static final String GET_ALL_MOMENT = GET_ALL + momentClassName;
 
@@ -127,15 +129,15 @@ public class RequestContract {
     /**
      * PURCHASE ORDER CONTROLLER
      */
-    private static final String purchaseOrderClassName = "PurchaseOrder";
-    private static final String purchaseOrderClassNameToLowerCase = "purchaseOrder";
+    private static final String productionOrderClassName = "ProductionOrder";
+    private static final String productionOrderClassNameToLowerCase = "productionOrder";
 
-    public static final String PURCHASEORDER_SERVICE_NAME = purchaseOrderClassNameToLowerCase + SERVICE;
-    public static final String PURCHASEORDER_REPOSITORY_NAME = purchaseOrderClassNameToLowerCase + REPOSITORY;
+    public static final String PRODUCTIONORDER_SERVICE_NAME = productionOrderClassNameToLowerCase + SERVICE;
+    public static final String PRODUCTIONORDER_REPOSITORY_NAME = productionOrderClassNameToLowerCase + REPOSITORY;
 
-    public static final String INSERT_PURCHASEORDER = INSERT + purchaseOrderClassName;
-    public static final String GET_ONE_PURCHASEORDER = GET_ONE + purchaseOrderClassName;
-    public static final String GET_ALL_PURCHASEORDER = GET_ALL + purchaseOrderClassName;
+    public static final String INSERT_PRODUCTIONORDER = INSERT + productionOrderClassName;
+    public static final String GET_ONE_PRODUCTIONORDER = GET_ONE + productionOrderClassName;
+    public static final String GET_ALL_PRODUCTIONORDER = GET_ALL + productionOrderClassName;
 
     /**
      * STATION CONTROLLER
@@ -163,4 +165,17 @@ public class RequestContract {
     public static final String INSERT_WORKER = INSERT + workerClassName;
     public static final String GET_ONE_WORKER = GET_ONE + workerClassName;
     public static final String GET_ALL_WORKER = GET_ALL + workerClassName;
+
+    /**
+     * DOCUMENBT
+     */
+    private static final String documentClassName = "Document";
+    private static final String documentClassNameToLowerCase = "document";
+
+    public static final String DOCUMENT_SERVICE_NAME = documentClassNameToLowerCase + SERVICE;
+    public static final String DOCUMENT_REPOSITORY_NAME = documentClassNameToLowerCase + REPOSITORY;
+
+    public static final String INSERT_DOCUMENT = INSERT + documentClassName;
+    public static final String GET_ONE_DOCUMENT = GET_ONE + documentClassName;
+    public static final String GET_ALL_DOCUMENT = GET_ALL + documentClassName;
 }

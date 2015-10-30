@@ -1,11 +1,16 @@
 package Services.Repositories;
 
+import Data.DBContract;
 import Data.HibernateUtil;
 import Data.RequestContract;
 import Services.Common.BasicRepository;
 import Services.Common.MyModel;
 import Services.Entities.Cart;
+import Services.Entities.ProductionOrder;
+import org.hibernate.Criteria;
+import org.hibernate.SQLQuery;
 import org.hibernate.Session;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -33,4 +38,28 @@ public class CartRepository extends BasicRepository {
         session.close();
         return listMyModel;
     }
+
+    public List<Cart> getListAvailable() throws Exception{
+        Session session = HibernateUtil.getInstace().getSessionFactory().openSession();
+        session.beginTransaction();
+
+        String subQuery = "(SELECT " + DBContract.CART_COLUMN_ID +
+                " FROM " + DBContract.PRODUCTIONORDER_TABLE +
+                " WHERE " + DBContract.ORDERSTATE_COLUMN_ID + " != 4)";
+
+        String query =
+                "SELECT " + DBContract.CART_COLUMN_ID +
+                "," + DBContract.CART_COLUMN_NAME +
+                "," + DBContract.CART_COLUMN_TABLETMAC +
+                " FROM " + DBContract.CART_TABLE +
+                " WHERE " + DBContract.CART_COLUMN_ID + " NOT IN " + subQuery;
+
+        List<Cart> listMyModel = session.createSQLQuery(query)
+                .addEntity(Cart.class)
+                .list();
+        session.close();
+
+        return listMyModel;
+    }
+
 }

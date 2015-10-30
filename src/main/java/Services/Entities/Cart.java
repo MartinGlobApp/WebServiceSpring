@@ -3,10 +3,7 @@ package Services.Entities;
 import Data.DBContract;
 import Services.Common.MyModel;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * Created by martin-valdez on 20/10/15.
@@ -17,6 +14,7 @@ public class Cart implements MyModel{
 
     @Id
     @GeneratedValue
+    @Column(name = DBContract.CART_COLUMN_ID)
     private int cartId;
     private String name;
     private String tabletMac;

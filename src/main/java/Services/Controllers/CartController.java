@@ -31,4 +31,10 @@ public class CartController {
     public MyResponse getListAllCarts(){
         return cartService.getListAll();
     }
+
+    @RequestMapping("/getListAvailableCart")
+    public MyResponse getListAvailableCart(){
+        return cartService.getListAvailable();
+    }
+
 }

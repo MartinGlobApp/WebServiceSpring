@@ -5,9 +5,6 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
-import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
-import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
-import org.springframework.stereotype.Component;
 
 import java.util.Properties;
 
@@ -42,7 +39,7 @@ public class HibernateUtil {
             Properties properties = new Properties();
             properties.put("hibernate.dialect","org.hibernate.dialect.MySQLDialect");
             properties.put("hibernate.hbm2ddl.auto", Auto_hibernate.AUTO_UPDATE.toString());
-            properties.put("hibernate.show_sql", "false");
+            properties.put("hibernate.show_sql", "true");
             properties.put("hibernate.format_sql", "true");
             properties.put("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
             properties.put("hibernate.connection.url", "jdbc:mysql://localhost:3306/" + DBContract.DB_NAME);
@@ -60,9 +57,11 @@ public class HibernateUtil {
                     .addAnnotatedClass(MomentState.class)
                     .addAnnotatedClass(Break.class)
                     .addAnnotatedClass(ItemProcess.class)
-                    .addAnnotatedClass(PurchaseOrder.class)
+                    .addAnnotatedClass(ProductionOrder.class)
                     .addAnnotatedClass(Moment.class)
-                    .addAnnotatedClass(Product.class);
+                    .addAnnotatedClass(Product.class)
+                    .addAnnotatedClass(ProductionOrderDocument.class)
+                    .addAnnotatedClass(Document.class);
 
             serviceRegistry = new ServiceRegistryBuilder().applySettings(configuration.getProperties()).buildServiceRegistry();
             return configuration.buildSessionFactory(serviceRegistry);

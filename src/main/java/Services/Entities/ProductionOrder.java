@@ -11,12 +11,12 @@ import java.util.List;
  * Created by martin-valdez on 20/10/15.
  */
 @Entity
-@Table(name = DBContract.PURCHASEORDER_TABLE)
-public class PurchaseOrder implements MyModel{
+@Table(name = DBContract.PRODUCTIONORDER_TABLE)
+public class ProductionOrder implements MyModel{
 
     @Id
     @GeneratedValue
-    private int purchaseOrderId;
+    private int productionOrderId;
 
     @ManyToOne
     @JoinColumn(name = DBContract.PRODUCTS_COLUMN_ID)
@@ -30,20 +30,24 @@ public class PurchaseOrder implements MyModel{
     @JoinColumn(name = DBContract.ORDERSTATE_COLUMN_ID)
     private OrderState orderState;
 
-    @OneToMany(mappedBy = "purchaseOrder")
+    @OneToMany(mappedBy = "productionOrder")
     private List<Moment> momentList;
 
+    @OneToMany(mappedBy = "productionOrder")
+    private List<ProductionOrderDocument> productionOrderDocumentList;
+
     private String customerName;
+    private int purchaseOrderNumber;
     private String detail;
     private Date starDate;
     private Date endDate;
 
-    public int getPurchaseOrderId() {
-        return purchaseOrderId;
+    public int getProductionOrderId() {
+        return productionOrderId;
     }
 
-    public void setPurchaseOrderId(int purchaseOrderId) {
-        this.purchaseOrderId = purchaseOrderId;
+    public void setProductionOrderId(int productionOrderId) {
+        this.productionOrderId = productionOrderId;
     }
 
     public Product getProduct() {
@@ -78,12 +82,28 @@ public class PurchaseOrder implements MyModel{
         this.momentList = momentList;
     }
 
+    public List<ProductionOrderDocument> getProductionOrderDocumentList() {
+        return productionOrderDocumentList;
+    }
+
+    public void setProductionOrderDocumentList(List<ProductionOrderDocument> productionOrderDocumentList) {
+        this.productionOrderDocumentList = productionOrderDocumentList;
+    }
+
     public String getCustomerName() {
         return customerName;
     }
 
     public void setCustomerName(String customerName) {
         this.customerName = customerName;
+    }
+
+    public int getPurchaseOrderNumber() {
+        return purchaseOrderNumber;
+    }
+
+    public void setPurchaseOrderNumber(int purchaseOrderNumber) {
+        this.purchaseOrderNumber = purchaseOrderNumber;
     }
 
     public String getDetail() {
@@ -112,6 +132,6 @@ public class PurchaseOrder implements MyModel{
 
     @Override
     public int getId() {
-        return getPurchaseOrderId();
+        return getProductionOrderId();
     }
 }

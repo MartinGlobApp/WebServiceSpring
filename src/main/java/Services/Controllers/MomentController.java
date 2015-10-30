@@ -3,6 +3,7 @@ package Services.Controllers;
 import Data.DBContract;
 import Data.MyResponse;
 import Data.RequestContract;
+import Services.Entities.Break;
 import Services.Entities.Moment;
 import Services.Services.MomentService;
 import org.springframework.web.bind.annotation.*;
@@ -20,6 +21,11 @@ public class MomentController {
     @RequestMapping(value = RequestContract.INSERT_MOMENT, method = RequestMethod.POST)
     public MyResponse insertMoment(@RequestBody final Moment newMoment) {
         return momentService.insert(newMoment);
+    }
+
+    @RequestMapping(RequestContract.UPDATE_MOMENT)
+    public MyResponse updateMoment(@RequestBody final Moment moment){
+        return momentService.update(moment);
     }
 
     @RequestMapping(RequestContract.GET_ONE_MOMENT)

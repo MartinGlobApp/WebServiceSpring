@@ -40,4 +40,16 @@ public class CartService extends BasicService {
         }
         return response;
     }
+
+    public MyResponse getListAvailable(){
+        MyResponse response = new MyResponse();
+        try {
+            response.setData(cartRepository.getListAvailable());
+            response.setCode(ResponseStates.DONE);
+        } catch (Exception e) {
+            response.setCode(ResponseStates.ERROR_DB);
+            response.setData(e.toString());
+        }
+        return response;
+    }
 }

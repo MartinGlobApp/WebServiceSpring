@@ -30,6 +30,7 @@ public class ProductController {
     @RequestMapping(RequestContract.INSERT_PRODUCT)
     public MyResponse insertProduct(){
 
+
         ArrayList<ItemProcess> list = new ArrayList<>();
 
         Product product = new Product();

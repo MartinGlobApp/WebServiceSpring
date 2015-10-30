@@ -24,6 +24,8 @@ public class DBContract {
      */
     public static final String CART_TABLE = "Carts";
     public static final String CART_COLUMN_ID = "cartId";
+    public static final String CART_COLUMN_NAME = "name";
+    public static final String CART_COLUMN_TABLETMAC = "tabletMac";
     /**
      * STATIONS
      */
@@ -66,6 +68,17 @@ public class DBContract {
     /**
      * ORDERS
      */
-    public static final String PURCHASEORDER_TABLE = "PruchaseOrders";
-    public static final String PURCHASEORDER_COLUMN_ID = "purchaseOrderId";
+    public static final String PRODUCTIONORDER_TABLE = "ProductionOrders";
+    public static final String PRODUCTIONORDER_COLUMN_ID = "productionOrderId";
+
+    /**
+     * DOCUMENTS
+     */
+    public static final String DOCUMENTS_TABLE = "Documents";
+    public static final String DOCUMENTS_COLUMN_ID = "documentId";
+
+    /**
+     * PRODUCTIN ORDER DOCUMENTS
+     */
+    public static final String PRODUCTIONORDERDOCUMENTS_TABLE = "ProductionOrderDocuments";
 }
